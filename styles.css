@@ -61,6 +61,7 @@ main {
   align-items: center;
   width: 30%;
   height: 100vh;
+  text-align: center;
 }
 
 #buttons {
@@ -90,7 +91,7 @@ button {
 }
 
 #elon {
-  width: 95%;
+  width: 80%;
   height: calc(width / 2);
   margin-bottom: 1rem;
 }
