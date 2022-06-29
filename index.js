@@ -38,7 +38,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     // Check if ship direction is North
     if (currentDir === "N") {
-      if (currentY < 4) {
+      if (currentY < 9) {
         currentY++;
       } else {
         currentY = 0;
@@ -58,7 +58,7 @@ window.addEventListener("DOMContentLoaded", () => {
       if (currentY > 0) {
         currentY--;
       } else {
-        currentY = 4;
+        currentY = 9;
       }
     
       cells.forEach(cell => {
@@ -71,7 +71,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     // Check if ship direction is East
     if (currentDir === "E") {
-      if (currentX < 4) {
+      if (currentX < 19) {
         currentX++;
       } else {
         currentX = 0;
@@ -90,7 +90,7 @@ window.addEventListener("DOMContentLoaded", () => {
       if (currentX > 0) {
         currentX--;
       } else {
-        currentX = 4;
+        currentX = 19;
       }
     
       cells.forEach(cell => {
@@ -110,7 +110,7 @@ window.addEventListener("DOMContentLoaded", () => {
       if (currentY > 0) {
         currentY--;
       } else {
-        currentY = 4;
+        currentY = 9;
       }
     
       cells.forEach(cell => {
@@ -123,7 +123,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     // Check if ship direction is South
     if (currentDir === "S") {
-      if (currentY < 4) {
+      if (currentY < 9) {
         currentY++;
       } else {
         currentY = 0;
@@ -142,7 +142,7 @@ window.addEventListener("DOMContentLoaded", () => {
       if (currentX > 0) {
         currentX--;
       } else {
-        currentX = 4;
+        currentX = 19;
       }
     
       cells.forEach(cell => {
@@ -155,7 +155,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     // Check if ship direction is west
     if (currentDir === "W") {
-      if (currentX < 4) {
+      if (currentX < 19) {
         currentX++;
       } else {
         currentX = 0;
